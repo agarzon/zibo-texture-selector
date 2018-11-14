@@ -1,12 +1,5 @@
 using System;
 using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ZiboTextureSelector
@@ -42,9 +35,9 @@ namespace ZiboTextureSelector
 
                 this.outputLabel.Text = resolution + " texture installed!. Enjoy your flight!";
             }
-            catch (Exception error)
+            catch (Exception)
             {
-                MessageBox.Show("Error: " + error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Remember, you must install this executable in your ZIBO B737-800X folder", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 //throw;
             }
         }
