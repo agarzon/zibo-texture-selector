@@ -9,9 +9,6 @@ namespace ZiboTextureSelector
         public Form1()
         {
             InitializeComponent();
-            //string pathy = System.IO.Path.GetDirectoryName(Application.ExecutablePath);
-            //MessageBox.Show(pathy);
-
         }
 
         private void Button2k_Click(object sender, EventArgs e)
